@@ -1,24 +1,24 @@
-# Bitcore-Dash
+# Bitcore-Divi
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-dash.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-dash)
-[![Build Status](https://img.shields.io/travis/dashevo/bitcore-dash.svg?branch=master&style=flat-square)](https://travis-ci.org/dashevo/bitcore-dash)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-divi.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-divi)
+[![Build Status](https://img.shields.io/travis/divicoin/bitcore-divi.svg?branch=master&style=flat-square)](https://travis-ci.org/divicoin/bitcore-divi)
 
-Infrastructure to build Dash and blockchain-based applications for the next generation of financial technology.
+Infrastructure to build Divi and blockchain-based applications for the next generation of financial technology.
 
-**Note:** If you're looking for the Bitcore-Dash Library please see: https://github.com/dashevo/bitcore-lib-dash
+**Note:** If you're looking for the Bitcore-Divi Library please see: https://github.com/divicoin/divicore-lib
 
 ## Getting Started
 
 Before you begin you'll need to have Node.js v4+ installed. There are several options for installation. One method is to use [nvm](https://github.com/creationix/nvm) to easily switch between different versions, or download directly from [Node.js](https://nodejs.org/).
 
 ```bash
-npm install -g bitcore-dash
+npm install -g bitcore-divi
 ```
 
 Spin up a full node and join the network:
 
 ```bash
-npm install -g bitcore-dash
+npm install -g bitcore-divi
 bitcored
 ```
 
@@ -26,7 +26,7 @@ You can then view the Insight block explorer at the default location: `http://lo
 
 Create a transaction:
 ```js
-var bitcore = require('bitcore-dash');
+var bitcore = require('bitcore-divi');
 var transaction = new bitcore.Transaction();
 var transaction.from(unspent).to(address, amount);
 transaction.sign(privateKey);
@@ -34,24 +34,24 @@ transaction.sign(privateKey);
 
 ## Applications
 
-- [Node-Dash](https://github.com/dashevo/bitcore-node-dash) - A full node with extended capabilities using Dash Core
-- [Insight API-Dash](https://github.com/dashevo/insight-api-dash) - A blockchain explorer HTTP API
-- [Insight UI-Dash](https://github.com/dashevo/insight-ui-dash) - A blockchain explorer web user interface
-- [Wallet Service](https://github.com/dashevo/bitcore-wallet-service-dash) - A multisig HD service for wallets
-- [Wallet Client](https://github.com/dashevo/bitcore-wallet-client-dash) - A client for the wallet service
+- [Node-Divi](https://github.com/divicoin/bitcore-node-divi) - A full node with extended capabilities using Divi Core
+- [Insight API-Divi](https://github.com/divicoin/insight-api-divi) - A blockchain explorer HTTP API
+- [Insight UI-Divi](https://github.com/divicoin/insight-ui-divi) - A blockchain explorer web user interface
+- [Wallet Service](https://github.com/divicoin/bitcore-wallet-service-divi) - A multisig HD service for wallets
+- [Wallet Client](https://github.com/divicoin/bitcore-wallet-client-divi) - A client for the wallet service
 - CLI Wallet - A command-line based wallet client
 - Angular Wallet Client - An Angular based wallet client
-- Copay - An easy-to-use, multiplatform, multisignature, secure Dash wallet
+- Copay - An easy-to-use, multiplatform, multisignature, secure Divi wallet
 
 ## Libraries
 
-- [Lib-Dash](https://github.com/dashevo/bitcore-lib-dash) - All of the core Dash primatives including transactions, private key management and others
+- [Lib-Divi](https://github.com/divicoin/divicore-lib) - All of the core Divi primatives including transactions, private key management and others
 - Payment Protocol - A protocol for communication between a merchant and customer
-- [P2P-Dash](https://github.com/dashevo/bitcore-p2p-dash) - The peer-to-peer networking protocol
-- [Mnemonic-Dash](https://github.com/dashevo/bitcore-mnemonic-dash) - Implements mnemonic code for generating deterministic keys
-- Channel - Micropayment channels for rapidly adjusting Dash transactions
-- [Message-Dash](https://github.com/dashevo/bitcore-message-dash) - Dash message verification and signing
-- [ECIES-Dash](https://github.com/dashevo/bitcore-ecies-dash) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
+- [P2P-Divi](https://github.com/divicoin/bitcore-p2p-divi) - The peer-to-peer networking protocol
+- [Mnemonic-Divi](https://github.com/divicoin/bitcore-mnemonic-divi) - Implements mnemonic code for generating deterministic keys
+- Channel - Micropayment channels for rapidly adjusting Divi transactions
+- [Message-Divi](https://github.com/divicoin/bitcore-message-divi) - Divi message verification and signing
+- [ECIES-Divi](https://github.com/divicoin/bitcore-ecies-divi) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
 
 ## Documentation
 
@@ -70,7 +70,7 @@ If you find a security issue, please email security@bitpay.com.
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/dashevo/bitcore-dash/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/divicoin/bitcore-divi/blob/master/CONTRIBUTING.md) file.
 
 This will generate files named `bitcore.js` and `bitcore.min.js`.
 
